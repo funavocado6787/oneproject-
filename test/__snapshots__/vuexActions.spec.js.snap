@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VuexActions.vue match snapshot 1`] = `
+<div
+  class="container"
+>
+  <h3>
+    Vuex - Actions
+  </h3>
+   
+  <div
+    id="app"
+  >
+    <div
+      class="prism-editor-wrapper my-editor"
+    >
+      <div
+        class="prism-editor__container"
+      >
+        <textarea
+          autocapitalize="off"
+          autocomplete="off"
+          autocorrect="off"
+          class="prism-editor__textarea"
+          data-gramm="false"
+          data-testid="textarea"
+          placeholder=""
+          spellcheck="false"
+        />
+        <pre
+          class="prism-editor__editor"
+          data-testid="preview"
+        >
+          vuexActions1
+          <br />
+        </pre>
+      </div>
+    </div>
+  </div>
+   
+  <p>
+    Calling Actions & Mutations
+  </p>
+   
+  <div
+    id="app"
+  >
+    <div
+      class="prism-editor-wrapper my-editor"
+    >
+      <div
+        class="prism-editor__container"
+      >
+        <textarea
+          autocapitalize="off"
+          autocomplete="off"
+          autocorrect="off"
+          class="prism-editor__textarea"
+          data-gramm="false"
+          data-testid="textarea"
+          placeholder=""
+          spellcheck="false"
+        />
+        <pre
+          class="prism-editor__editor"
+          data-testid="preview"
+        >
+          vuexActions2
+          <br />
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+`;

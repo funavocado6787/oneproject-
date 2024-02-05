@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheatSheet.vue should match the basic snapshot 1`] = `
+<v-container-stub
+  column=""
+  layout=""
+  tag="div"
+>
+  <h3>
+    Vue JS - Cheat Sheet
+  </h3>
+   
+  <p>
+    This is a list of useful functions that are not commonly used but worth remembering.
+  </p>
+   
+  <panel-stub
+    color="rgb(30, 144, 255)"
+    minheight="0px"
+  >
+    <div>
+      Modifying Bound Values
+    </div>
+     
+    <div>
+      
+          A list of handy input model transformation and modifiers.
+          
+      <v-container-stub
+        d-flex=""
+        justify-space-between=""
+        tag="div"
+      >
+        <div
+          style="width: 30%;"
+        >
+          <h5>
+            Trim
+          </h5>
+           
+          <p>
+            This trims any extra white space from the model.
+          </p>
+           
+          <display-code-stub
+            code="v-model.trim=\\"someparam\\""
+            oneliner="true"
+          />
+        </div>
+         
+        <div
+          style="width: 30%;"
+        >
+          <h5>
+            Number
+          </h5>
+           
+          <p>
+            This attempts to convert the parameter to a number instead of the default string. Will only parse if the first char is a number.
+          </p>
+           
+          <display-code-stub
+            code="v-model.number=\\"someparam\\""
+            oneliner="true"
+          />
+        </div>
+         
+        <div
+          style="width: 30%;"
+        >
+          <h5>
+            Once
+          </h5>
+           
+          <p>
+            
+                      A One time binding will give better performance as vue does not have to update its value.
+                  
+          </p>
+           
+          <display-code-stub
+            code="v-model.lazy=\\"someparam\\""
+            oneliner="true"
+          />
+        </div>
+      </v-container-stub>
+    </div>
+     
+    <v-container-stub
+      d-flex=""
+      justify-space-between=""
+      tag="div"
+    >
+      <div
+        style="width: 30%;"
+      >
+        <v-text-field-stub
+          backgroundcolor=""
+          class="form-control"
+          clearicon="$clear"
+          errorcount="1"
+          errormessages=""
+          label="Try it"
+          loaderheight="2"
+          messages=""
+          placeholder="try it"
+          rules=""
+          successmessages=""
+          type="text"
+        />
+         
+        <p>
+          <strong>
+            output:
+          </strong>
+          
+                  ()
+              
+        </p>
+      </div>
+       
+      <div
+        style="width: 30%;"
+      >
+        <v-text-field-stub
+          backgroundcolor=""
+          class="form-control"
+          clearicon="$clear"
+          errorcount="1"
+          errormessages=""
+          label="Try it"
+          loaderheight="2"
+          messages=""
+          placeholder="try it"
+          rules=""
+          successmessages=""
+          type="text"
+        />
+         
+        <p>
+          <strong>
+            output
+          </strong>
+           (input + 1)
+                  
+          <strong>
+            :
+          </strong>
+          
+                  1
+              
+        </p>
+      </div>
+       
+      <div
+        style="width: 30%;"
+      />
+    </v-container-stub>
+  </panel-stub>
+</v-container-stub>
+`;

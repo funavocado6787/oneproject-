@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`eventBus.vue match snapshot 1`] = `
+<div
+  class="container layout column"
+>
+  <h3>
+    Event Bus
+  </h3>
+   
+  <h4>
+    Bus Setup
+  </h4>
+   
+  <p>
+    The bus itself is a simple Vue instance with no html.
+  </p>
+   
+  <div
+    style="padding-bottom: 1em;"
+  >
+    <div
+      id="app"
+    >
+      <div
+        class="prism-editor-wrapper my-editor"
+      >
+        <div
+          class="prism-editor__container"
+        >
+          <textarea
+            autocapitalize="off"
+            autocomplete="off"
+            autocorrect="off"
+            class="prism-editor__textarea"
+            data-gramm="false"
+            data-testid="textarea"
+            placeholder=""
+            spellcheck="false"
+          />
+          <pre
+            class="prism-editor__editor"
+            data-testid="preview"
+          >
+            eventBus1
+            <br />
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <h4>
+    Sending an event
+  </h4>
+   
+  <p>
+    This is as simple as importing the bus and emiting an event.
+  </p>
+   
+  <div
+    id="app"
+  >
+    <div
+      class="prism-editor-wrapper my-editor"
+    >
+      <div
+        class="prism-editor__container"
+      >
+        <textarea
+          autocapitalize="off"
+          autocomplete="off"
+          autocorrect="off"
+          class="prism-editor__textarea"
+          data-gramm="false"
+          data-testid="textarea"
+          placeholder=""
+          spellcheck="false"
+        />
+        <pre
+          class="prism-editor__editor"
+          data-testid="preview"
+        >
+          eventBus2
+          <br />
+        </pre>
+      </div>
+    </div>
+  </div>
+   
+  <h4>
+    Recieving the event
+  </h4>
+   
+  <p>
+    On the vue component that needs to recieve the event setup a simple handler.
+  </p>
+   
+  <div
+    id="app"
+  >
+    <div
+      class="prism-editor-wrapper my-editor"
+    >
+      <div
+        class="prism-editor__container"
+      >
+        <textarea
+          autocapitalize="off"
+          autocomplete="off"
+          autocorrect="off"
+          class="prism-editor__textarea"
+          data-gramm="false"
+          data-testid="textarea"
+          placeholder=""
+          spellcheck="false"
+        />
+        <pre
+          class="prism-editor__editor"
+          data-testid="preview"
+        >
+          eventBus3
+          <br />
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+`;

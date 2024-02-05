@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VuexSetup.vue match snapshot 1`] = `
+<div
+  class="container layout column"
+>
+  <h3>
+    State Management (Vuex)
+  </h3>
+   
+  <div
+    class="flex"
+  >
+    Install vuex via npm.
+  </div>
+   
+  <div
+    id="app"
+  >
+    <div
+      class="prism-editor-wrapper my-editor one-liner"
+    >
+      <div
+        class="prism-editor__container"
+      >
+        <textarea
+          autocapitalize="off"
+          autocomplete="off"
+          autocorrect="off"
+          class="prism-editor__textarea"
+          data-gramm="false"
+          data-testid="textarea"
+          placeholder=""
+          spellcheck="false"
+        />
+        <pre
+          class="prism-editor__editor"
+          data-testid="preview"
+        >
+          vuex1
+          <br />
+        </pre>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="flex pt-2"
+  >
+    Create a Vuex component.
+  </div>
+   
+  <div
+    id="app"
+  >
+    <div
+      class="prism-editor-wrapper my-editor"
+    >
+      <div
+        class="prism-editor__container"
+      >
+        <textarea
+          autocapitalize="off"
+          autocomplete="off"
+          autocorrect="off"
+          class="prism-editor__textarea"
+          data-gramm="false"
+          data-testid="textarea"
+          placeholder=""
+          spellcheck="false"
+        />
+        <pre
+          class="prism-editor__editor"
+          data-testid="preview"
+        >
+          vuex2
+          <br />
+        </pre>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="flex pt-2"
+  >
+    
+      Register the store with the root main app.js
+  
+  </div>
+   
+  <div
+    id="app"
+  >
+    <div
+      class="prism-editor-wrapper my-editor"
+    >
+      <div
+        class="prism-editor__container"
+      >
+        <textarea
+          autocapitalize="off"
+          autocomplete="off"
+          autocorrect="off"
+          class="prism-editor__textarea"
+          data-gramm="false"
+          data-testid="textarea"
+          placeholder=""
+          spellcheck="false"
+        />
+        <pre
+          class="prism-editor__editor"
+          data-testid="preview"
+        >
+          vuex3
+          <br />
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+`;
